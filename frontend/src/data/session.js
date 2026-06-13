@@ -19,7 +19,7 @@ function handleLogin(response) {
 		employeeResource.reload()
 
 		session.user = sessionUser()
-		router.replace({ path: "/" })
+		window.location.reload()
 	}
 }
 
